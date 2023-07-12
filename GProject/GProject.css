@@ -1,0 +1,342 @@
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:11%;
+    background-color:darkblue;
+    z-index: 1000;
+}
+ul{
+    display:flex;
+    float: right;
+    margin: 20px;
+    list-style:none;
+    margin-top: 1cm;
+    
+
+    /* position:relative; */
+    /* background:darkblue; */
+    /* color:white;
+    margin-top: 0.3cm;
+    
+    margin-left: 25cm; */
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 12px;
+    
+    
+
+
+
+    /* 
+    
+    font-size: 0.6cm;;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    margin-right: 1cm;;
+    position:relative;
+    bottom:0.4cm;
+    border: 2px solid whitesmoke;
+    border-radius: 15px; */
+    /* transition:font-size 0.2s; */
+}
+ul li a:hover{
+    background-color:whitesmoke;
+    color: darkblue;
+    border-radius: 14% 0 14% 0;
+    border-bottom: 2px solid whitesmoke;
+    /* box-shadow: 23px solid red; */
+    /* background-color:rgb(10, 77, 77) ;
+    display: inline-block;
+    border-bottom: 2px solid white; */
+    
+
+}
+ #logo{
+    font-size:1.2cm;
+    position: relative;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, darkblue, white);
+    top:0.5cm;
+} 
+.header{
+    height:15cm;
+    background: white;
+    margin-top: 2.5cm;;
+}
+#heading1{
+    position: relative;
+    color:black;
+    top:1.5cm;
+    font-size: 4cm;
+    text-align: center;
+    color:darkblue;
+
+}
+#head1txt{
+    font-size: 1.3cm;
+    text-align: center;
+    margin-top: 2cm;;
+    color:darkblue;
+}
+.AboutUs{
+    background-color: darkblue;
+}
+#Abt{
+    text-align: center;
+    font-size: 1.5cm;
+    color: white;
+    position: relative;
+    top:1cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1cm;
+}
+#Abtpara{
+    color: white;;
+    font-size: 0.8cm;
+    text-align:center;
+    line-height: 1.5cm;
+    margin-top: 1cm;
+    font-family:Arial;
+}
+.ContactUs{
+    background-color: white;
+}
+#Contact{
+    text-align: center;
+    font-size: 1.5cm;
+    color: darkblue;
+    position: relative;
+    top:1cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1cm;
+}
+#Contacttxt{
+    color: darkblue;
+    font-size: 0.8cm;
+    text-align:center;
+    line-height: 1.5cm;
+    margin-top: 1cm;
+    font-family:Arial;
+}
+#Cont{
+    color:darkblue;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1.9cm;
+    text-decoration: underline;
+}
+.PlsContact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Contacthead{
+    color: darkblue;
+    font-size: 0.7cm;
+    line-height: 1.3cm;
+}
+.plscontact1{
+    margin-left: 1cm;
+}
+#Customerh1{
+    color:darkblue;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1.6cm;
+    text-decoration: underline;
+}
+#Customertxt{
+    color: darkblue;
+    font-size: 0.7cm;
+    line-height: 1.3cm;
+}
+.Customer #mylist li{
+    list-style:circle;
+    list-style-type:disc;
+    font-size: 0.5cm;
+    color:darkblue;
+    font-weight: lighter;
+    line-height: 1cm;
+font-family: Arial, sans-serif;
+
+}
+ol{
+    background-color: white;
+    color:darkblue;
+    list-style-type: none;
+    
+}
+ol li{
+    list-style:circle;
+    list-style-type:disc;
+    font-size: 0.5cm;
+    color:darkblue;
+    font-weight: lighter;
+    line-height: 1cm;
+font-family: Arial, sans-serif;
+
+}
+.StayConnect{
+    display:grid;
+    grid-template-columns: 1fr ;
+    margin-left: 0.5cm;;
+    text-align: center;
+}
+#Connecttxt{
+    color:darkblue;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1.6cm;
+    text-decoration: underline;
+}
+#Connecttxt2{
+    color: darkblue;
+    font-size: 0.7cm;
+    line-height: 1.3cm;
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    .navbar{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:11%;
+        z-index: 1000;
+        box-shadow: 0 2px 4px 0 gray;
+    }
+
+    ul{
+        display:flex;
+        position:relative;
+        /* background:darkblue; */
+        /* color:white;
+        margin-top: 0.3cm;
+        list-style:none;
+        margin-left: 25cm; */
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    ul li a{
+        text-decoration: none;
+        color:white;
+         font-size: 0.5cm;
+        /* font-family:'Courier New', Courier, monospace;
+        margin-right: 1cm;;
+        position:relative;
+        bottom:0.4cm;
+        transition:font-size 0.2s; */
+    }
+    ul li a:hover{
+    
+        background-color:whitesmoke;
+        color: darkblue;
+        border-radius: 14% 0 14% 0;
+        border-bottom: 2px solid whitesmoke;
+    }
+
+    .PlsContact{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:2cm;
+    }
+    #Customertxt{
+        color: darkblue;
+        font-size: 0.7cm;
+        line-height: 1.3cm;
+        text-align: center;
+    }
+    .Customer #mylist li{
+        list-style:circle;
+        text-align: center;
+        list-style-type:disc;
+        font-size: 0.5cm;
+        color:darkblue;
+        font-weight: lighter;
+        line-height: 1cm;
+    font-family: Arial, sans-serif;
+    
+}
+}
+@media screen and (min-width:390px) and (max-width:844px) {
+    #heading1{
+        position: relative;
+        color:black;
+        top:2cm;
+        font-size: 2cm;
+        text-align: center;
+        color:darkblue;
+    
+    }
+    #head1txt{
+        font-size: 1.3cm;
+        text-align: center;
+        margin-top: 3cm;;
+        color:darkblue;
+    }
+    .PlsContact{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:0.6cm;
+    }
+    .plscontact1{
+        margin:1cm;
+    }
+    .Customer{
+        margin: 1cm;
+    }
+    #Customertxt{
+        color: darkblue;
+        font-size: 0.8cm;
+        line-height: 1.3cm;
+    }
+    #Customerh1{
+        color:darkblue;
+        font-size: 1cm;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Customer #mylist li{
+        list-style:circle;
+        font-size: 0.7cm;
+        color:darkblue;
+        font-weight: lighter;
+        line-height: 1cm;
+    font-family: Arial, sans-serif;
+    }
+    ul{
+        display:none;
+        float: right;
+        margin: 10px;
+        list-style:none;
+        margin-top: 0cm;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.3cm;
+    
+}
+.material-icons-outlined{
+    margin-left: 8.5cm;
+    position: relative;
+    bottom:0.3cm;
+    font-size: 0.6cm;
+}
+}
